@@ -50,7 +50,7 @@ cacheSolve <- function(x, ...) {
         return (i)
     }
     
-    ## if not get the oringinal matrix
+    ## if not get the original matrix
     data <- x$get()
     
     ## solve its inverse
