@@ -54,7 +54,7 @@ cacheSolve <- function(x, ...) {
     data <- x$get()
     
     ## solve its inverse
-    i <- solve(data, ...)
+    i <- solve(data)
     
     ## store in the cache
     x$setInverse(i)
